@@ -1,0 +1,28 @@
+sed
+https://www.geeksforgeeks.org/sed-command-linux-set-2/
+https://www.tecmint.com/linux-sed-command-tips-tricks/
+
+110547956
+
+https://meetingsapac12.webex.com/meet/basithmohamed.1990
+
+Hive
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DML
+
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL
+
+Hadoop
+https://data-flair.training/blogs/top-hadoop-hdfs-commands-tutorial/
+
+yarn
+https://www.janbasktraining.com/blog/what-is-yarn/
+
+sqoop
+https://www.janbasktraining.com/blog/sqoop-commands-cheat-sheet/
+
+Hive-complex datatype
+https://acadgild.com/blog/hive-complex-data-types-with-examples
+
+---
+
+rec_cnt=$(sqoop eval --connect jdbc:mysql://localhost/ccdb --username root --password $ROOT --query "select count(1) credits_cst_cnt from credits_cst" | { tr -cd '[:digit:]' ; echo ; })
